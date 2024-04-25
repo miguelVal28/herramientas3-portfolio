@@ -1,0 +1,24 @@
+footer{
+    display: grid;
+    background-color: var(--color-4);
+    grid-template-columns: 1fr 1fr;
+    gap:0px;
+    grid-template-areas: "links dialog";
+    color:var(--color-1);
+    padding: 1em 2.5em;
+}
+
+#footer-links{
+    align-content: space-around;
+    grid-area: links;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#footer-dialog{
+    grid-area:dialog;
+}
+

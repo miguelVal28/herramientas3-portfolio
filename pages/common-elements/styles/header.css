@@ -1,0 +1,74 @@
+header{
+    margin:0;
+    padding: 0;
+    position: relative;
+    top:0;
+    height:20rem;
+    display: flex;
+    left:0;
+    right: 0;
+    justify-content: space-between;
+    background-image: url("https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2.jpg.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--font-title);
+}
+
+
+
+#logo-container{
+    display: inline-block;
+    margin: 0rem 1rem;
+    width: 12rem;
+    left:8rem;
+    height: max-content;
+    position:sticky;
+    top:0.3rem;   
+}
+
+#menu-wrapper{
+    background-color: rgb(46, 43, 24, 0.5);
+    box-shadow: 0px 0px 5px;
+    position: sticky;
+    border-style: none;
+    height:max-content;
+    top:0;
+    border-radius: 0rem 0rem 0rem 2rem;
+    width: 50%;
+    padding: 0.1rem;
+    font-weight: bold;
+    
+}
+
+#header-menu{
+    display: flex;
+    position:sticky;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+    list-style: none;
+    padding: 0.5rem 0.1rem;
+}
+
+.menu-item a{
+    text-decoration: none;
+    position: relative;
+    display:block;
+    color: var(--color-4);
+    background-color: rgb(0, 0, 0, 0);
+    left:0;
+    top:0;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s, left 0.3s,top 0.3s;
+    border-radius: 1rem;
+    padding:0.4rem 1rem;
+}
+
+.menu-item a:hover{
+    background-color: var(--color-4);
+    left: -5px;
+    top: -5px;
+    color: var(--color-2);
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Inconsolata:wght@200..900&family=Telex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Telex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Telex&family=Varela&display=swap');
+
+:root{
+    --color-1: #1B262C;
+    --color-2: rgb(46, 43, 24);
+    --color-3: #c68733;
+    --color-4: #f1e4cc;
+    --color-5: #F1F3F9;
+    --font-title: Inconsolata, sans-serif;
+    --font-subtitle: Lato, sans-serif;
+    --font-text: Telex, sans-serif;
+    --font-size: 18px;
+}
