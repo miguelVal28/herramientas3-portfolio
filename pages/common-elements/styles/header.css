@@ -1,18 +1,17 @@
 header{
     margin:0;
-    padding: 0;
-    position: relative;
+    padding: 0.1rem 0.1rem;
+    position: sticky;
     top:0;
-    height:20rem;
+    height:fit-content;
     display: flex;
     left:0;
     right: 0;
     justify-content: space-between;
-    background-image: url("https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2.jpg.webp");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    align-items: center;
     font-family: var(--font-title);
+    background-color: rgb(46, 43, 24);
+    z-index: 100;
 }
 
 
@@ -20,7 +19,7 @@ header{
 #logo-container{
     display: inline-block;
     margin: 0rem 1rem;
-    width: 12rem;
+    width: 8rem;
     left:8rem;
     height: max-content;
     position:sticky;
@@ -28,11 +27,8 @@ header{
 }
 
 #menu-wrapper{
-    background-color: rgb(46, 43, 24, 0.5);
-    box-shadow: 0px 0px 5px;
-    position: sticky;
+    position: relative;
     border-style: none;
-    height:max-content;
     top:0;
     border-radius: 0rem 0rem 0rem 2rem;
     width: 50%;
@@ -46,6 +42,7 @@ header{
     position:sticky;
     justify-content: space-evenly;
     align-items: center;
+    margin: 0;
     flex-direction: row;
     gap: 1em;
     list-style: none;
