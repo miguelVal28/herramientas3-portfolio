@@ -1,30 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Formularios</title>
-    <link rel="stylesheet" href="/pages/common-elements/styles/main.css">
-    <link rel="stylesheet" href="/pages/common-elements/styles/footer.css">
-    <link rel="stylesheet" href="/pages/common-elements/styles/header.css">
-    <link rel="stylesheet" href="/pages/forms_view/forms.css">
+    <link rel="stylesheet" href="/pages/common-elements/styles/main.css" />
+    <link rel="stylesheet" href="/pages/common-elements/styles/footer.css" />
+    <link rel="stylesheet" href="/pages/common-elements/styles/header.css" />
+    <link rel="stylesheet" href="/pages/forms_view/forms.css" />
     <script src="/pages/forms_view/forms.js"></script>
     <script src="/pages/common-elements/scripts/header.js"></script>
     <script src="/pages/common-elements/scripts/footer.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div id="logo-container">
-            <a href="/pages/home.html"><img id="logo" src="/assets/vector-file.svg" alt="logo" class="logo"></a>
-        </div>
-    
-        <section id="menu-wrapper">
-            <ul id="header-menu" class="menu">
-                <li class="menu-item"><a href="/pages/home.html">inicio</a></li>
-                <li class="menu-item"><a href="/pages/tables_view/tablas.html">tablas</a></li>
-                <li class="menu-item"><a href="/pages/video_view/video.html">video</a></li>
-                <li class="menu-item"><a href="/pages/forms_view/forms.html">formulario</a></li>
-            </ul>
-        </section>
+      <div id="logo-container">
+        <a href="/pages/home.html"
+          ><img id="logo" src="/assets/vector-file.svg" alt="logo" class="logo"
+        /></a>
+      </div>
+
+      <section id="menu-wrapper">
+        <ul id="header-menu" class="menu">
+          <li class="menu-item"><a href="/pages/home.html">inicio</a></li>
+          <li class="menu-item">
+            <a href="/pages/tables_view/tablas.html">tablas</a>
+          </li>
+          <li class="menu-item">
+            <a href="/pages/video_view/video.html">video</a>
+          </li>
+          <li class="menu-item">
+            <a href="/pages/forms_view/forms.html">formulario</a>
+          </li>
+        </ul>
+      </section>
     </header>
-</body>
+    <main>
+      <section id="contact-banner" class="banner"></section>
+      <section id="forms-content">
+        <form id="form" action="/pages/forms_view/forms.js">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" />
+
+          <label for="address">Direccion</label>
+          <input type="text" id="address" name="address" />
+
+          <label for="phone">Telefono</label>
+          <input type="text" id="phone" name="phone" />
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" />
+
+          <label for="city">Ciudad</label>
+          <input type="text" id="city" name="city" />
+
+          <label for="age">Edad</label>
+          <input type="text" id="age" name="age" />
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <ul id="footer-links">
+        <li class="links">acerca de</li>
+        <li class="links">terminos legales</li>
+        <li class="links">contacto</li>
+      </ul>
+
+      <p id="footer-dialog">
+        Gracias por ver mi página. Recuerda visitar mis recursos de interés
+      </p>
+    </footer>
+  </body>
 </html>

@@ -1,34 +1,71 @@
 body {
     margin: 0px;
-    font-family: var(--font-title);
+    font-family: var(--font-text);
+    color: var(--color-2);
 }
 
-#banner {
-    background-image: url("https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2.jpg.webp");
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem 20rem;
+}
+
+#banner-tablas {
+    background-image: url("/assets/workspace-1280538_1920.jpg");
     position: relative;
     height: 30vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+}
+
+#banner-tablas::before {
+    content: "Usuarios";
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+    height: 100%;
+    background-color: #1b262cc5;
+    font-family: var(--font-subtitle);
+    color: var(--color-4)
+}
+
+h2{
+    font-family: var(--font-title);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+h2::before, h2::after{
+    flex:1;
+    content:"";
+    background-color: var(--color-1);
+    padding: 3px;
+    margin: 5px;
 }
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
 }
 
 td,
 th {
-    border: 1px solid #dddddd;
-    text-align: left;
+    border: none;
+    text-align: center;
     padding: 8px;
 }
 
+th{
+    border-bottom: 1px solid var(--color-1);
+}
+
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: var(--color-4);
+}
+
+footer{
+    position: relative;
 }

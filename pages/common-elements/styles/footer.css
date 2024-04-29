@@ -1,11 +1,16 @@
 footer{
     display: grid;
+    position: relative;
     background-color: var(--color-4);
     grid-template-columns: 1fr 1fr;
     gap:0px;
     grid-template-areas: "links dialog";
     color:var(--color-1);
-    padding: 1em 2.5em;
+    padding: 1rem 2.5rem;
+    bottom: 0;
+    left:0;
+    width: calc(100% - 2*2.5em);
+    font-family: var(--font-text);
 }
 
 #footer-links{
