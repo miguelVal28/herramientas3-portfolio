@@ -13,7 +13,7 @@ body {
 }
 
 #banner-tablas {
-    background-image: url("/assets/workspace-1280538_1920.jpg");
+    background-image: url("../../assets/workspace-1280538_1920.jpg");
     position: relative;
     height: 30vh;
 }

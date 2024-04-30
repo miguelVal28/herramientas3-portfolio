@@ -10,7 +10,7 @@ main {
 }
 
 #contact-banner {
-    background-image: url("/assets/10131252-business-group-showing-ethnic-diversity-in-a-meeting.jpg");
+    background-image: url("../../assets/10131252-business-group-showing-ethnic-diversity-in-a-meeting.jpg");
     height: 30vh;
     background-position: 0% 20%;
     background-repeat: no-repeat;
