@@ -7,7 +7,7 @@ body {
 }
 
 #video-banner{
-    background-image: url("/assets/bsso_12-8-15_t.jpg");
+    background-image: url("../../assets/bsso_12-8-15_t.jpg");
     height: 30vh;
     background-position: center;
 }

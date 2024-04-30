@@ -2,34 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Formularios</title>
-    <link rel="stylesheet" href="/pages/common-elements/styles/main.css" />
-    <link rel="stylesheet" href="/pages/common-elements/styles/footer.css" />
-    <link rel="stylesheet" href="/pages/common-elements/styles/header.css" />
-    <link rel="stylesheet" href="/pages/forms_view/forms.css" />
-    <script src="/pages/forms_view/forms.js"></script>
-    <script src="/pages/common-elements/scripts/header.js"></script>
-    <script src="/pages/common-elements/scripts/footer.js"></script>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../common-elements/styles/main.css" />
+    <link rel="stylesheet" href="../common-elements/styles/footer.css" />
+    <link rel="stylesheet" href="../common-elements/styles/header.css" />
+    <link rel="stylesheet" href="forms.css" />
+    <script src="forms.js"></script>
+    <script src="../common-elements/scripts/header.js"></script>
+    <script src="../pages/common-elements/scripts/footer.js"></script>
   </head>
   <body>
     <header>
       <div id="logo-container">
-        <a href="/index.html"
-          ><img id="logo" src="/assets/vector-file.svg" alt="logo" class="logo"
+        <a href="../../index.html"
+          ><img
+            id="logo"
+            src="../../assets/vector-file.svg"
+            alt="logo"
+            class="logo"
         /></a>
       </div>
 
       <section id="menu-wrapper">
         <ul id="header-menu" class="menu">
-          <li class="menu-item"><a href="/index.html">inicio</a></li>
+          <li class="menu-item"><a href="../../index.html">inicio</a></li>
           <li class="menu-item">
-            <a href="/pages/tables_view/tablas.html">tablas</a>
+            <a href="../tables_view/tablas.html">tablas</a>
           </li>
           <li class="menu-item">
-            <a href="/pages/video_view/video.html">video</a>
+            <a href="../video_view/video.html">video</a>
           </li>
           <li class="menu-item">
-            <a href="/pages/forms_view/forms.html">formulario</a>
+            <a href="../forms_view/forms.html">formulario</a>
           </li>
         </ul>
       </section>
@@ -37,7 +41,7 @@
     <main>
       <section id="contact-banner" class="banner"></section>
       <section id="forms-content">
-        <form id="form" action="/pages/forms_view/forms.js">
+        <form id="form">
           <label for="name">Nombre</label>
           <input type="text" id="name" name="name" />
 
@@ -56,7 +60,7 @@
           <label for="age">Edad</label>
           <input type="text" id="age" name="age" />
 
-          <input type="submit" value="Enviar" />
+          <button id="submit" onclick="validateForm()">Enviar</button>
         </form>
       </section>
     </main>
