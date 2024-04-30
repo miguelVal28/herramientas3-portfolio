@@ -74,7 +74,8 @@ body{
 }
 
 #banner-content{
-    justify-self: right;;
+    margin:1rem 3rem;
+    justify-self: center;
     align-self: center;
     font-size: 4rem;
     color: var(--color-4);
